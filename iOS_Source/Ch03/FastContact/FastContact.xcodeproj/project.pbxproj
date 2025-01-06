@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9266A28B16E1B74C0046A9E3 /* ContactService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266A28A16E1B74C0046A9E3 /* ContactService.m */; };
+		92D7621B16E19EFC005FA3B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D7621A16E19EFC005FA3B6 /* UIKit.framework */; };
+		92D7621D16E19EFC005FA3B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D7621C16E19EFC005FA3B6 /* Foundation.framework */; };
+		92D7621F16E19EFC005FA3B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D7621E16E19EFC005FA3B6 /* CoreGraphics.framework */; };
+		92D7622516E19EFC005FA3B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92D7622316E19EFC005FA3B6 /* InfoPlist.strings */; };
+		92D7622716E19EFC005FA3B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D7622616E19EFC005FA3B6 /* main.m */; };
+		92D7622B16E19EFC005FA3B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D7622A16E19EFC005FA3B6 /* AppDelegate.m */; };
+		92D7622D16E19EFC005FA3B6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 92D7622C16E19EFC005FA3B6 /* Default.png */; };
+		92D7622F16E19EFC005FA3B6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92D7622E16E19EFC005FA3B6 /* Default@2x.png */; };
+		92D7623116E19EFC005FA3B6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92D7623016E19EFC005FA3B6 /* Default-568h@2x.png */; };
+		92D7623416E19EFC005FA3B6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92D7623216E19EFC005FA3B6 /* MainStoryboard.storyboard */; };
+		92D7623716E19EFC005FA3B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D7623616E19EFC005FA3B6 /* ViewController.m */; };
+		92D7623E16E19FAE005FA3B6 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D7623D16E19FAE005FA3B6 /* AddressBook.framework */; };
+		92D7624016E19FDA005FA3B6 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D7623F16E19FDA005FA3B6 /* AddressBookUI.framework */; };
+		92D7624316E1A3FB005FA3B6 /* ContactRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D7624216E1A3FB005FA3B6 /* ContactRecord.m */; };
+		92D7624616E1A5C3005FA3B6 /* ContactRecordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D7624516E1A5C3005FA3B6 /* ContactRecordManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9266A28916E1B74C0046A9E3 /* ContactService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactService.h; sourceTree = "<group>"; };
+		9266A28A16E1B74C0046A9E3 /* ContactService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactService.m; sourceTree = "<group>"; };
+		92D7621716E19EFC005FA3B6 /* FastContact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastContact.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92D7621A16E19EFC005FA3B6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		92D7621C16E19EFC005FA3B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		92D7621E16E19EFC005FA3B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		92D7622216E19EFC005FA3B6 /* FastContact-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FastContact-Info.plist"; sourceTree = "<group>"; };
+		92D7622416E19EFC005FA3B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		92D7622616E19EFC005FA3B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92D7622816E19EFC005FA3B6 /* FastContact-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FastContact-Prefix.pch"; sourceTree = "<group>"; };
+		92D7622916E19EFC005FA3B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92D7622A16E19EFC005FA3B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92D7622C16E19EFC005FA3B6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		92D7622E16E19EFC005FA3B6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		92D7623016E19EFC005FA3B6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		92D7623316E19EFC005FA3B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		92D7623516E19EFC005FA3B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		92D7623616E19EFC005FA3B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		92D7623D16E19FAE005FA3B6 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		92D7623F16E19FDA005FA3B6 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		92D7624116E1A3FB005FA3B6 /* ContactRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactRecord.h; sourceTree = "<group>"; };
+		92D7624216E1A3FB005FA3B6 /* ContactRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactRecord.m; sourceTree = "<group>"; };
+		92D7624416E1A5C3005FA3B6 /* ContactRecordManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactRecordManager.h; sourceTree = "<group>"; };
+		92D7624516E1A5C3005FA3B6 /* ContactRecordManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactRecordManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92D7621416E19EFC005FA3B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D7621B16E19EFC005FA3B6 /* UIKit.framework in Frameworks */,
+				92D7621D16E19EFC005FA3B6 /* Foundation.framework in Frameworks */,
+				92D7621F16E19EFC005FA3B6 /* CoreGraphics.framework in Frameworks */,
+				92D7623E16E19FAE005FA3B6 /* AddressBook.framework in Frameworks */,
+				92D7624016E19FDA005FA3B6 /* AddressBookUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92D7620E16E19EFC005FA3B6 = {
+			isa = PBXGroup;
+			children = (
+				92D7622016E19EFC005FA3B6 /* FastContact */,
+				92D7621916E19EFC005FA3B6 /* Frameworks */,
+				92D7621816E19EFC005FA3B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92D7621816E19EFC005FA3B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92D7621716E19EFC005FA3B6 /* FastContact.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92D7621916E19EFC005FA3B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92D7623F16E19FDA005FA3B6 /* AddressBookUI.framework */,
+				92D7623D16E19FAE005FA3B6 /* AddressBook.framework */,
+				92D7621A16E19EFC005FA3B6 /* UIKit.framework */,
+				92D7621C16E19EFC005FA3B6 /* Foundation.framework */,
+				92D7621E16E19EFC005FA3B6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92D7622016E19EFC005FA3B6 /* FastContact */ = {
+			isa = PBXGroup;
+			children = (
+				92D7622916E19EFC005FA3B6 /* AppDelegate.h */,
+				92D7622A16E19EFC005FA3B6 /* AppDelegate.m */,
+				92D7623216E19EFC005FA3B6 /* MainStoryboard.storyboard */,
+				92D7623516E19EFC005FA3B6 /* ViewController.h */,
+				92D7623616E19EFC005FA3B6 /* ViewController.m */,
+				92D7622116E19EFC005FA3B6 /* Supporting Files */,
+				92D7624116E1A3FB005FA3B6 /* ContactRecord.h */,
+				92D7624216E1A3FB005FA3B6 /* ContactRecord.m */,
+				92D7624416E1A5C3005FA3B6 /* ContactRecordManager.h */,
+				92D7624516E1A5C3005FA3B6 /* ContactRecordManager.m */,
+				9266A28916E1B74C0046A9E3 /* ContactService.h */,
+				9266A28A16E1B74C0046A9E3 /* ContactService.m */,
+			);
+			path = FastContact;
+			sourceTree = "<group>";
+		};
+		92D7622116E19EFC005FA3B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92D7622216E19EFC005FA3B6 /* FastContact-Info.plist */,
+				92D7622316E19EFC005FA3B6 /* InfoPlist.strings */,
+				92D7622616E19EFC005FA3B6 /* main.m */,
+				92D7622816E19EFC005FA3B6 /* FastContact-Prefix.pch */,
+				92D7622C16E19EFC005FA3B6 /* Default.png */,
+				92D7622E16E19EFC005FA3B6 /* Default@2x.png */,
+				92D7623016E19EFC005FA3B6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92D7621616E19EFC005FA3B6 /* FastContact */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92D7623A16E19EFC005FA3B6 /* Build configuration list for PBXNativeTarget "FastContact" */;
+			buildPhases = (
+				92D7621316E19EFC005FA3B6 /* Sources */,
+				92D7621416E19EFC005FA3B6 /* Frameworks */,
+				92D7621516E19EFC005FA3B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastContact;
+			productName = SimpleLauncher;
+			productReference = 92D7621716E19EFC005FA3B6 /* FastContact.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92D7620F16E19EFC005FA3B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Ryosuke Sasaki";
+			};
+			buildConfigurationList = 92D7621216E19EFC005FA3B6 /* Build configuration list for PBXProject "FastContact" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 92D7620E16E19EFC005FA3B6;
+			productRefGroup = 92D7621816E19EFC005FA3B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92D7621616E19EFC005FA3B6 /* FastContact */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92D7621516E19EFC005FA3B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D7622516E19EFC005FA3B6 /* InfoPlist.strings in Resources */,
+				92D7622D16E19EFC005FA3B6 /* Default.png in Resources */,
+				92D7622F16E19EFC005FA3B6 /* Default@2x.png in Resources */,
+				92D7623116E19EFC005FA3B6 /* Default-568h@2x.png in Resources */,
+				92D7623416E19EFC005FA3B6 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92D7621316E19EFC005FA3B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D7622716E19EFC005FA3B6 /* main.m in Sources */,
+				92D7622B16E19EFC005FA3B6 /* AppDelegate.m in Sources */,
+				92D7623716E19EFC005FA3B6 /* ViewController.m in Sources */,
+				92D7624316E1A3FB005FA3B6 /* ContactRecord.m in Sources */,
+				92D7624616E1A5C3005FA3B6 /* ContactRecordManager.m in Sources */,
+				9266A28B16E1B74C0046A9E3 /* ContactService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92D7622316E19EFC005FA3B6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92D7622416E19EFC005FA3B6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		92D7623216E19EFC005FA3B6 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92D7623316E19EFC005FA3B6 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92D7623816E19EFC005FA3B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		92D7623916E19EFC005FA3B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92D7623B16E19EFC005FA3B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FastContact/FastContact-Prefix.pch";
+				INFOPLIST_FILE = "FastContact/FastContact-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		92D7623C16E19EFC005FA3B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FastContact/FastContact-Prefix.pch";
+				INFOPLIST_FILE = "FastContact/FastContact-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92D7621216E19EFC005FA3B6 /* Build configuration list for PBXProject "FastContact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D7623816E19EFC005FA3B6 /* Debug */,
+				92D7623916E19EFC005FA3B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92D7623A16E19EFC005FA3B6 /* Build configuration list for PBXNativeTarget "FastContact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D7623B16E19EFC005FA3B6 /* Debug */,
+				92D7623C16E19EFC005FA3B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92D7620F16E19EFC005FA3B6 /* Project object */;
+}
